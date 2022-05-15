@@ -1,0 +1,32 @@
+# print("Enter num 1")
+# num1 = input()
+# print("Enter num 1")
+# num2 = input()
+# try:
+#     print("The sum of these Number is",
+#     int(num1)+int(num2))
+# except Exception as e:
+#     print(e)
+
+# print("this is line is very important")
+
+#    FILE HANDLING
+#text file
+f = open('student.txt', mode='w')
+f.write('Hello/n')
+f.write('GeekyShows/n')
+f.write('How are You')
+f.closed()
+print('Writing Success')
+
+#text mode
+f = open('student.txt', mode='r')
+data = f.reade()
+print(data)
+f.closed()
+
+#binary mode
+f = open('studet.txt', mode='rb')
+data = f.read()
+print(data)
+f.close()
