@@ -20,9 +20,35 @@
 # executor(print)
 
 # what is Decorator ?
-def dec1(func1):
-    def nowexec():
-        print("Subscribe Now")
-        func1()
-        print("Subscribed")
-    return nowexec
+# def dec1(func1):
+#     def nowexec():
+#         print("Subscribe Now")
+#         func1()
+#         print("Subscribed")
+#     return nowexec
+
+# Iterables, Iterators, Generators
+
+# def gen(n):
+#     for i in range(n):
+#         yield i
+
+# g = gen(3)
+# print(g.__next__())
+# print(g.__next__())
+# print(g.__next__())
+# print(g.__next__())
+# print(g.__next__())
+
+z = "sarfraz khan"
+h = iter(z)
+print(h.__next__())
+print(h.__next__())
+print(h.__next__())
+print(h.__next__())
+print(h.__next__())
+print(h.__next__())
+print(h.__next__())
+print(h.__next__())
+print(h.__next__())
+print(h.__next__())
